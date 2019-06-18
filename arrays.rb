@@ -6,7 +6,8 @@ def array_split(list)
     newList2 = list2.sort
     puts newList
     puts newList2
-     megaList = [newList, newList2].join
+     megaList = newList + newList2
+     megaList.sort
      puts megaList
    end
 
